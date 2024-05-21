@@ -11,10 +11,10 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 // Add a marker to the map for New York City
-var luigismarker = L.marker([40.62489701416209, -74.03062021863167]).addTo(map);
+var Ayatsmarker = L.marker([40.62489701416209, -74.03062021863167]).addTo(map);
 
 // Add a popup to the marker
-luigismarker.bindPopup(`
+Ayatsmarker.bindPopup(`
     <b>Ayat Resturant</b><br>Best Arabic Food in Bay Ridge <br>
     <img src="https://aurashktest.github.io/aurashktest/images/luigis.png" style="width: 100px; height: auto;">
 `).openPopup();
