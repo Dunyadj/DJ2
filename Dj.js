@@ -16,7 +16,7 @@ var Ayatsmarker = L.marker([40.62489701416209, -74.03062021863167]).addTo(map);
 // Add a popup to the marker
 Ayatsmarker.bindPopup(`
     <b>Ayat Resturant</b><br>Best Arabic Food in Bay Ridge <br>
-    <img src="https://github.com/Dunyadj/DJ2/9369ayat_NYC_logo.png" style="width: 100px; height: auto;">
+    <img src="https://dunyadj.github.io/Dunyadj/DJ2/9369ayat_NYC_logo.png" style="width: 100px; height: auto;">
 `).openPopup();
 
 
